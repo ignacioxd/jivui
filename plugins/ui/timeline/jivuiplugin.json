@@ -1,0 +1,8 @@
+{
+  "apiversion": "1",
+  "type": "ui",
+  "src": "timeline.js",
+  "notifyOnPlay": true,
+  "template": "timeline.htm",
+  "style": "timeline.css"
+}

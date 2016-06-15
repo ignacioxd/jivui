@@ -1,0 +1,7 @@
+
+### VisualStudioCode ###
+.settings
+
+### JIVUI App ###
+node_modules/
+build/

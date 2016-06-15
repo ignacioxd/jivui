@@ -1,0 +1,10 @@
+{
+  "apiversion": "1",
+  "type": "ui",
+  "src": [
+    "https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js",
+    "controls.js"
+  ],
+  "notifyOnPlay": true,
+  "template": "controls.htm"
+}

@@ -1,0 +1,6 @@
+{
+  "apiversion": "1",
+  "type": "ui",
+  "notifyOnPlay": false,
+  "template": "fileLoader.htm"
+}

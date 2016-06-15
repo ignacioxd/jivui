@@ -1,0 +1,8 @@
+{
+  "apiversion": "1",
+  "type": "ui",
+  "src": "mouseLayerTrail.js",
+  "notifyOnPlay": true,
+  "template": "mouseLayerTrail.htm",
+  "style": "mouseLayerTrail.css"
+}

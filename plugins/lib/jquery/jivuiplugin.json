@@ -1,0 +1,6 @@
+{
+  "apiversion": "1",
+  "type": "ui",
+  "notifyOnPlay": false,
+  "src": "https://code.jquery.com/jquery-3.0.0.min.js"
+}

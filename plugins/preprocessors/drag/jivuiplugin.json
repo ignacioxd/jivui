@@ -1,0 +1,5 @@
+{
+  "apiversion": "1",
+  "type": "preprocessor",
+  "src": "drag.js"
+}

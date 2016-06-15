@@ -1,0 +1,8 @@
+{
+  "apiversion": "1",
+  "type": "preprocessor",
+  "src": [
+    "1euro.js",
+    "gaze_smoothing.js"
+  ]
+}

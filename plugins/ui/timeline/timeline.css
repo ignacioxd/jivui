@@ -1,0 +1,93 @@
+.timelineTable {
+  position: relative;
+  width: 100%;
+}
+
+.timelineContainer {
+  overflow-x: scroll;
+  overflow-y: visible;
+  position: relative;
+  width: 100%;
+  border: 1px solid #000;
+
+}
+
+.timeline {
+  /*border: 1px solid #000;*/
+  background-image: url("img/timesteps.png");
+  background-repeat: repeat;
+}
+
+.timelineMarker {
+  position: absolute;
+  width: 0;
+  border-left: 1px solid #F00;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.timelineOrigin {
+  position: absolute;
+  width: 0;
+  border-left: 2px solid #000;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  z-index: 50;
+}
+
+.timelineProcessorLabel {
+  border-bottom: 1px solid #333;
+}
+
+.timelineProcessor {
+  border-bottom: 1px solid #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.timelineItem {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0.5;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.keyboard .timelineItem {
+  background-color: #80A8E0;
+  /*width: 10px;*/
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+.gaze .timelineItem {
+  background-color: #33CC33;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+.cognitive .timelineItem {
+  background-color: #FFCC66;
+  /*width: 10px;*/
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+.perceptual .timelineItem {
+  background-color: #CCFF66;
+  /*width: 10px;*/
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+.incorrect .timelineItem {
+  border-color: #F00 !important;
+}

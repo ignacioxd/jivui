@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JIVUI</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <!-- BEGIN LIBRARIES -->
+    <div data-jivui="../../plugins/lib/jquery"></div>
+    <div data-jivui="../../plugins/lib/jqueryui"></div>
+    <div data-jivui="../../plugins/lib/fontawesome"></div>
+    <div data-jivui="../../plugins/lib/bootstrap3"></div>
+    <!-- END LIBRARIES -->
+
+    <!-- BEGIN PREPROCESSORS -->
+    <div data-jivui="../../plugins/preprocessors/keystrokes"></div>
+    <div data-jivui="../../plugins/preprocessors/gaze_fixations"></div>
+    <div data-jivui="../../plugins/preprocessors/typist"></div>
+    <!-- END PREPROCESSORS -->
+
+    <!-- BEGIN HEADER AREA -->
+    <div data-jivui="../../plugins/ui/fileLoader"></div>
+    <!-- END HEADER AREA -->
+
+    <div class="container-fluid">
+      <!-- BEGIN REPLAY AREA -->
+  		<div data-jivui="./gamereplay"></div>
+      <!-- END REPLAY AREA -->
+
+      <!-- BEGIN CONTROLS AREA -->
+      <div data-jivui="../../plugins/ui/controls"></div>
+      <!-- END CONTROLS AREA -->
+
+      <!-- BEGIN TIMELINE AREA -->
+      <div data-jivui="../../plugins/ui/timeline"></div>
+      <!-- END TIMELINE AREA -->
+    </div>
+
+
+    <script src="../../dist/jivui.js"></script>
+
+    <footer><a href="http://go.ncsu.edu/jivui">Powered by JIVUI</a></footer>
+  </body>
+</html>

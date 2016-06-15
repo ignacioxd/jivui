@@ -1,0 +1,8 @@
+{
+  "apiversion": "1",
+  "type": "ui",
+  "src": "replay.js",
+  "notifyOnPlay": true,
+  "template": "replay.htm",
+  "style": "replay.css"
+}

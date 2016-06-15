@@ -1,0 +1,41 @@
+.game div, .game .text {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.board {
+/*  background-image: url("../images/TypingTest.png");*/
+  text-align: center;
+  font-family: 'Lucida Console', monospace;
+  font-size: 20px;
+  height: 500px;
+  width: 800px;
+  border: 1px solid #000;
+  position: relative;
+  border-collapse: collapse;
+}
+
+.textContainer {
+  background-color: #D6D6D6;
+  width: 600px;
+  height: 100px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  border-spacing: 0;
+  position: absolute;
+  top: 216px;
+  left: 101px;
+}
+
+.text {
+  line-height: 100px;
+  color: #000;
+}
+
+.matched {
+  color: #AAA;
+}
+
+.game {
+  min-width: 850px;
+}
