@@ -6,7 +6,7 @@ JIVUI (pronounced "jeev-ew-eye", or /jēv-ū-ī/) is a modular, Web-based, and c
 
  * [Getting Started Guide](docs/getting_started.md)
  * [Examples](examples/README.md)
- * [JSON Input Data Format](docs/data_format.md)
+ * [JSON Input Data Format](docs/input_data_description.md)
  * [Full Documentation](docs/README.md)
 
 ## Publication
