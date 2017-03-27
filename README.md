@@ -26,9 +26,14 @@ Ignacio X. Domínguez, Jayant Dhawan, Robert St. Amant, and David L. Roberts; [J
   author={Dom\'inguez, Ignacio X. and Dhawan, Jayant and St. Amant, Robert and Roberts, David L.},
   booktitle={Proceedings of the 2016 International Conference on Cognitive Modeling (ICCM 2016)},
   year={2016},
-  pages={},
+  pages={125--130},
   abstract={In this paper we describe the \textit{JavaScript Interface for Visualization of User Interaction} (JIVUI): a modular, Web-based, and customizable visualization tool that shows an animation of the trace of a user interaction with a graphical interface, or of predictions made by cognitive models of user interaction. Any combination of gaze, mouse, and keyboard data can be reproduced within a user-provided interface. Although customizable, the tool includes a series of plug-ins to support common visualization tasks, including a timeline of input device events and perceptual and cognitive operators based on the Model Human Processor and TYPIST. We talk about our use of this tool to support hypothesis generation, assumption validation, and to guide our modeling efforts.},
-  location={State College, PA, USA}
+  location={University Park, PA, USA},
+  address = {University Park, PA, USA},
+	series = {{ICCM}},
+	editor = {Reitter, David and Ritter, Frank E.},
+	publisher = {Penn State},
+	url = {http://acs.ist.psu.edu/iccm2016/proceedings/dominguez2016iccmB.pdf}
 }
 ```
 
